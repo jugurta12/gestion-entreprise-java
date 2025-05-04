@@ -8,11 +8,11 @@ Ce projet est une application Java pour la gestion des informations d'un client 
 
 #### Partie 1 : Saisie et Manipulation des Informations d'un Client
 Classe GestionClient : Permet de recueillir et manipuler les informations d'un client (nom, âge, téléphone, note de satisfaction, et statut de fidélité).
-Opérations réalisées :
-Concaténation du nom et de l'âge du client.
-Conversion du numéro de téléphone en format international (+33).
-Calcul de l'indice de satisfaction pondéré (note de satisfaction multipliée par l'âge).
-Message personnalisé en fonction du statut de fidélité.
+##### Opérations réalisées :
+-Concaténation du nom et de l'âge du client.
+-Conversion du numéro de téléphone en format international (+33).
+-Calcul de l'indice de satisfaction pondéré (note de satisfaction multipliée par l'âge).
+-Message personnalisé en fonction du statut de fidélité.
 
 #### Partie 2 : Séparation en Classes Client et TestClient
 Classe Client : Contient les informations d'un client, avec des méthodes pour calculer l'indice de satisfaction et générer un message de fidélité.
