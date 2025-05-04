@@ -2,18 +2,6 @@ import java.util.Scanner;
 
 public class GestionClient {
 
-    public static int SaisiePositif(int positif) {
-        Scanner sc = new Scanner(System.in);
-
-        while (positif < 0 ) {
-            System.out.println("Veuillez entrer votre positif");
-            positif = sc.nextInt();
-        }
-
-        sc.close();
-        return positif;
-    }
-
     public static double getNumber(int age, double note){
         return age * note;
     }
@@ -21,7 +9,6 @@ public class GestionClient {
     public static String getphoneF(String phone){
         return "+33 " + phone;
     }
-
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
