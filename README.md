@@ -19,6 +19,7 @@ Classe GestionClient : Permet de recueillir et manipuler les informations d'un c
 
 #### Partie 2 : Séparation en Classes Client et TestClient
 Classe Client : Contient les informations d'un client, avec des méthodes pour calculer l'indice de satisfaction et générer un message de fidélité.
+
 Classe TestClient : Sert à tester le fonctionnement des objets Client.
 
 #### Partie 3 : Gestion Dynamique des Clients avec un Tableau
