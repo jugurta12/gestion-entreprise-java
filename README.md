@@ -17,15 +17,15 @@ Message personnalisé en fonction du statut de fidélité.
 #### Partie 2 : Séparation en Classes Client et TestClient
 Classe Client : Contient les informations d'un client, avec des méthodes pour calculer l'indice de satisfaction et générer un message de fidélité.
 Classe TestClient : Sert à tester le fonctionnement des objets Client.
-Partie 3 : Gestion Dynamique des Clients
-Version 1 : Modélisation avec un Tableau de Clients
 
+#### Partie 3 : Gestion Dynamique des Clients avec un Tableau
 Classe TableauEntreprise : Utilise un tableau fixe pour stocker les clients. Les méthodes incluent l'ajout, la suppression, et l'affichage des clients dans le tableau.
-Version 2 : Modélisation avec une ArrayList de Clients
 
+#### Partie 4 : Gestion Dynamique des Clients avec une ArrayList
 Classe ListeEntreprise : Utilise une ArrayList pour gérer dynamiquement le nombre de clients. Les opérations restent les mêmes : ajout, suppression et affichage des clients.
-Classe TestEntreprise
 
-Classe TestEntreprise : Sert à tester le fonctionnement des classes TableauEntreprise et ListeEntreprise.
-À faire :
-Compléter TestEntreprise : Actuellement, seul le test pour le tableau de clients est complet, mais il manque le test pour la version avec ArrayLis
+#### Partie 5 (final) : la Classe test TestEntreprise
+Tester le fonctionnement des classes TableauEntreprise et ListeEntreprise.
+
+⚠️Actuellement, seul le test pour le tableau de clients est complet, mais il manque le test pour la version avec ArrayList.
+TestEntreprise à Compléter
