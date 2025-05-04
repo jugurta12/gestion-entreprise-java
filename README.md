@@ -31,5 +31,11 @@ Classe ListeEntreprise : Utilise une ArrayList pour gérer dynamiquement le nomb
 #### Partie 5 (final) : la Classe test TestEntreprise
 Tester le fonctionnement des classes TableauEntreprise et ListeEntreprise.
 
-⚠️Actuellement, seul le test pour le tableau de clients est complet, mais il manque le test pour la version avec ArrayList.
-TestEntreprise à Compléter
+## Fonctionnalités finales du programme
+
+#### - Ajout de clients avec saisie interactive
+#### - Suppression de clients par nom
+#### - Affichage de la liste actuelle des clients
+#### - hoix entre une structure fixe (tableau) ou dynamique (ArrayList)
+#### - Calcul automatique de l’indice de satisfaction
+#### - Messages adaptés à la fidélité du client
