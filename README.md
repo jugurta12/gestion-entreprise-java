@@ -2,7 +2,7 @@
 
 Ce projet est une application Java pour la gestion des informations d'un client dans une petite entreprise. Le programme permet de saisir, manipuler et afficher les informations de chaque client. Les fonctionnalités incluent l'ajout, la suppression et l'affichage des clients, avec des opérations sur leurs données comme le calcul d'un indice de satisfaction.
 
-Structure du Projet
+### Structure du Projet
 
 Le projet est divisé en plusieurs parties, comme suit :
 
